@@ -27,7 +27,7 @@ app.get('/:id', (req, res, next) => {
         message: 'No Record! Try another ID'
       }
     })
-  } else {res.json({data: result[0]})}
+  } else {res.json({ data: result[0] })}
 })
 
 
